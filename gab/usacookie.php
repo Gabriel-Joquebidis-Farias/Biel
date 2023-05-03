@@ -20,3 +20,14 @@ else{
         setcookie("contaVisitas",$contaVisitas,time()+3600,"/");
     }
 }
+?>
+<html>
+<head charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body style="background-color:<?= $cor ?> ;">
+
+        <?= $msg ?>
+    
+</body>
+</html>
